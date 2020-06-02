@@ -1,0 +1,106 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#homeimg {
+  position: relative;
+  background: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #homeimg .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-veido {
+  position: relative;
+  background: url("../img/people.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #home-veido .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #home-veido .fa {
+    font-size: 50px;
+    color: #ff0000; }
+
+#photo-gallery img {
+  min-height: 250px; }
+
+#footer {
+  background: #000; }
+
+#about-header {
+  background: url("../img/image1.jpeg");
+  min-height: 200px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#info .col-md-5 img {
+  width: 350px;
+  height: 350px; }
+
+#icon .fa {
+  font-size: 50px; }
+
+#services-header {
+  background: url("../img/image3.jpeg");
+  min-height: 200px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+@media (max-width: 991px) {
+  #homepc .mt-5 {
+    margin-top: 0px !important; } }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #homeimg {
+    min-height: 300px; }
+  #info .col-md-5 img {
+    margin-left: 80px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #homeimg {
+    min-height: 370px; }
+  #info .col-md-5 img {
+    margin-left: 50px; } }
+
+@media (max-width: 380px) {
+  #info .col-md-5 img {
+    margin-left: 0px; } }
